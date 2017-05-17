@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UILabel *lab = [[UILabel alloc] initWithFrame:CGRectZero];
+    [self.view addSubview:lab];
+    
+    
 }
 
 

@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		52B7E840F1F752B88E9A59C8 /* libPods-OneOtwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A59BE223E9CB5D2C288A22 /* libPods-OneOtwo.a */; };
+		D946E9F91ECC40520087EBFF /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = D946E9F51ECC40510087EBFF /* MBProgressHUD+NJ.m */; };
+		D946E9FA1ECC40520087EBFF /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D946E9F61ECC40510087EBFF /* MBProgressHUD.bundle */; };
+		D946E9FB1ECC40520087EBFF /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D946E9F81ECC40520087EBFF /* MBProgressHUD.m */; };
+		D946E9FD1ECC40D70087EBFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D946E9FC1ECC40D70087EBFF /* Assets.xcassets */; };
 		D98D09781ECAAD6800EDB5B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D09771ECAAD6800EDB5B8 /* main.m */; };
 		D98D097B1ECAAD6800EDB5B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D097A1ECAAD6800EDB5B8 /* AppDelegate.m */; };
 		D98D097E1ECAAD6800EDB5B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D097D1ECAAD6800EDB5B8 /* ViewController.m */; };
 		D98D09811ECAAD6800EDB5B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98D097F1ECAAD6800EDB5B8 /* Main.storyboard */; };
-		D98D09831ECAAD6800EDB5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98D09821ECAAD6800EDB5B8 /* Assets.xcassets */; };
 		D98D09861ECAAD6800EDB5B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98D09841ECAAD6800EDB5B8 /* LaunchScreen.storyboard */; };
 		D98D09911ECAAD6800EDB5B8 /* OneOtwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D09901ECAAD6800EDB5B8 /* OneOtwoTests.m */; };
 		D98D099C1ECAAD6800EDB5B8 /* OneOtwoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D099B1ECAAD6800EDB5B8 /* OneOtwoUITests.m */; };
@@ -38,6 +41,14 @@
 /* Begin PBXFileReference section */
 		63A59BE223E9CB5D2C288A22 /* libPods-OneOtwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneOtwo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B546DCBBFB6DB4125ACDAC8 /* Pods-OneOtwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneOtwo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneOtwo/Pods-OneOtwo.release.xcconfig"; sourceTree = "<group>"; };
+		D946E9F41ECC40510087EBFF /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
+		D946E9F51ECC40510087EBFF /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
+		D946E9F61ECC40510087EBFF /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		D946E9F71ECC40520087EBFF /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		D946E9F81ECC40520087EBFF /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		D946E9FC1ECC40D70087EBFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D986D5E01ECC2AC500656C16 /* ToolsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolsHeader.h; sourceTree = "<group>"; };
+		D986D5E11ECC2AF700656C16 /* OneOTwoPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneOTwoPrefixHeader.pch; sourceTree = "<group>"; };
 		D98D09731ECAAD6800EDB5B8 /* OneOtwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneOtwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98D09771ECAAD6800EDB5B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D98D09791ECAAD6800EDB5B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,7 +56,6 @@
 		D98D097C1ECAAD6800EDB5B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D98D097D1ECAAD6800EDB5B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D98D09801ECAAD6800EDB5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D98D09821ECAAD6800EDB5B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D98D09851ECAAD6800EDB5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D98D09871ECAAD6800EDB5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D98D098C1ECAAD6800EDB5B8 /* OneOtwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneOtwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,11 +110,40 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		D9660E791ECADBD300D346BA /* Public */ = {
+		D946E9F01ECC40510087EBFF /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				D946E9F11ECC40510087EBFF /* Base */,
+				D946E9F21ECC40510087EBFF /* Third */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		D946E9F11ECC40510087EBFF /* Base */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Public;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D946E9F21ECC40510087EBFF /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				D946E9F31ECC40510087EBFF /* MBProgressHUD */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		D946E9F31ECC40510087EBFF /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D946E9F41ECC40510087EBFF /* MBProgressHUD+NJ.h */,
+				D946E9F51ECC40510087EBFF /* MBProgressHUD+NJ.m */,
+				D946E9F61ECC40510087EBFF /* MBProgressHUD.bundle */,
+				D946E9F71ECC40520087EBFF /* MBProgressHUD.h */,
+				D946E9F81ECC40520087EBFF /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		D98D096A1ECAAD6800EDB5B8 = {
@@ -132,7 +171,7 @@
 		D98D09751ECAAD6800EDB5B8 /* OneOtwo */ = {
 			isa = PBXGroup;
 			children = (
-				D9660E791ECADBD300D346BA /* Public */,
+				D946E9F01ECC40510087EBFF /* Public */,
 				D98D09761ECAAD6800EDB5B8 /* Supporting Files */,
 			);
 			path = OneOtwo;
@@ -146,10 +185,12 @@
 				D98D097C1ECAAD6800EDB5B8 /* ViewController.h */,
 				D98D097D1ECAAD6800EDB5B8 /* ViewController.m */,
 				D98D097F1ECAAD6800EDB5B8 /* Main.storyboard */,
-				D98D09821ECAAD6800EDB5B8 /* Assets.xcassets */,
 				D98D09841ECAAD6800EDB5B8 /* LaunchScreen.storyboard */,
+				D946E9FC1ECC40D70087EBFF /* Assets.xcassets */,
 				D98D09871ECAAD6800EDB5B8 /* Info.plist */,
 				D98D09771ECAAD6800EDB5B8 /* main.m */,
+				D986D5E01ECC2AC500656C16 /* ToolsHeader.h */,
+				D986D5E11ECC2AF700656C16 /* OneOTwoPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -283,7 +324,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D98D09861ECAAD6800EDB5B8 /* LaunchScreen.storyboard in Resources */,
-				D98D09831ECAAD6800EDB5B8 /* Assets.xcassets in Resources */,
+				D946E9FA1ECC40520087EBFF /* MBProgressHUD.bundle in Resources */,
+				D946E9FD1ECC40D70087EBFF /* Assets.xcassets in Resources */,
 				D98D09811ECAAD6800EDB5B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +400,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D98D097E1ECAAD6800EDB5B8 /* ViewController.m in Sources */,
+				D946E9F91ECC40520087EBFF /* MBProgressHUD+NJ.m in Sources */,
+				D946E9FB1ECC40520087EBFF /* MBProgressHUD.m in Sources */,
 				D98D097B1ECAAD6800EDB5B8 /* AppDelegate.m in Sources */,
 				D98D09781ECAAD6800EDB5B8 /* main.m in Sources */,
 			);
@@ -512,6 +556,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LSX7L7U8WD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OneOTwo/OneOTwoPrefixHeader.pch";
 				INFOPLIST_FILE = OneOtwo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.glx.OneOtwo;
@@ -525,6 +571,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LSX7L7U8WD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OneOTwo/OneOTwoPrefixHeader.pch";
 				INFOPLIST_FILE = OneOtwo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.glx.OneOtwo;
