@@ -22,7 +22,22 @@
 
 -(void)setUI
 {
-    
+    UIButton *loginBtn = [[UIButton alloc] initWithFrame:CGRectZero];
+    [loginBtn setTitle:@"登录" forState:UIControlStateNormal];
+    [loginBtn setTintColor:kSubRedColor];
+    [loginBtn addTarget:self action:@selector(loginBtnAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:loginBtn];
+    [loginBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(self.view.mas_top).offset(100);
+        make.centerX.mas_equalTo(self.view.mas_centerX);
+        make.width.mas_equalTo(50);
+        make.height.mas_equalTo(30);
+    }];
+}
+
+-(void)loginBtnAction:(UIButton *)btn
+{
+    kAlertShow(@"登录失败");
 }
 
 - (void)didReceiveMemoryWarning {
